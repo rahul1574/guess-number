@@ -67,7 +67,7 @@ const Level1 = () => {
       <h1  id='completed'style={{color:'white'}}>LEVEL-1</h1>
       <div id='gameover' style={{display:'flex',flexDirection:'row',flexWrap:'wrap',justifyContent:'space-evenly'}}>
         <input  style={{height:'50px',width:'300px',textAlign:'center',margin:'10px',boxShadow:'0px 0px 20px #00b4d8',borderRadius:'12px',border:'none'}}placeholder='Enter number here'value={value} type='number' onChange={handleonchange}></input>
-        <button style={{backgroundColor:'#ffea00',height:'50px',width:'200px',margin:'20px',boxShadow:'0px 0px 20px #ffea00',border:'none',borderRadius:'12px'}} onClick={handledone}>GUESS</button>
+        <button style={{backgroundColor:'orange',height:'50px',width:'200px',margin:'20px',boxShadow:'0px 0px 20px #ffea00',border:'none',borderRadius:'12px'}} onClick={handledone}>GUESS</button>
       </div>
       {message && <h1 style={{color:'white',textAlign:'center'}}>{message}</h1>}
       <button id='reset'style={{backgroundColor:'#ffea00',height:'50px',width:'200px',margin:'10px',boxShadow:'0px 0px 20px #ffea00',border:'none',borderRadius:'12px',display:'none'}}><Link to="/home" style={{textDecoration:'none'}}>BACK TO HOME</Link></button>
